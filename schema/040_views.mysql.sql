@@ -1,4 +1,4 @@
--- Auto-generated from schema-views-mysql.psd1 (map@db2f8b8)
+-- Auto-generated from schema-views-mysql.psd1 (map@62c9c93)
 -- engine: mysql
 -- table:  merkle_roots
 -- Contract view for [merkle_roots]
@@ -15,7 +15,7 @@ SELECT
   created_at
 FROM merkle_roots;
 
--- Auto-generated from schema-views-mysql.psd1 (map@db2f8b8)
+-- Auto-generated from schema-views-mysql.psd1 (map@62c9c93)
 -- engine: mysql
 -- table:  merkle_roots_latest
 -- Latest Merkle roots per table

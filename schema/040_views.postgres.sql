@@ -1,4 +1,4 @@
--- Auto-generated from schema-views-postgres.psd1 (map@9d3471b)
+-- Auto-generated from schema-views-postgres.psd1 (map@62c9c93)
 -- engine: postgres
 -- table:  merkle_roots
 -- Contract view for [merkle_roots]
@@ -15,7 +15,7 @@ SELECT
   created_at
 FROM merkle_roots;
 
--- Auto-generated from schema-views-postgres.psd1 (map@9d3471b)
+-- Auto-generated from schema-views-postgres.psd1 (map@62c9c93)
 -- engine: postgres
 -- table:  merkle_roots_latest
 -- Latest Merkle roots per table
