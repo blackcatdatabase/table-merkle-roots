@@ -17,7 +17,7 @@ use BlackCat\Database\Support\DtoHydrator;
 final class MerkleRootDtoMapper
 {
     /** @var array<string,string> Column -> DTO property */
-    private const COL_TO_PROP = [ 'subject_table' => 'subjectTable', 'period_start' => 'periodStart', 'period_end' => 'periodEnd', 'root_hash' => 'rootHash', 'proof_uri' => 'proofUri', 'leaf_count' => 'leafCount', 'created_at' => 'createdAt' ];
+    private const COL_TO_PROP = [ 'id' => 'id', 'subject_table' => 'subjectTable', 'period_start' => 'periodStart', 'period_end' => 'periodEnd', 'root_hash' => 'rootHash', 'proof_uri' => 'proofUri', 'status' => 'status', 'leaf_count' => 'leafCount', 'created_at' => 'createdAt' ];
 
     /** @var string[] */
     private const BOOL_COLS   = [];
