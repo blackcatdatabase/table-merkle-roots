@@ -1,7 +1,7 @@
--- Auto-generated from joins-mysql.psd1 (map@mtime:2025-11-27T17:49:37Z)
+-- Auto-generated from joins-mysql.yaml (map@94ebe6c)
 -- engine: mysql
--- view:   merkle_roots_latest
--- Latest Merkle roots per table
+-- view:   merkle_latest
+
 CREATE OR REPLACE ALGORITHM=TEMPTABLE SQL SECURITY INVOKER VIEW vw_merkle_latest AS
 WITH ranked AS (
   SELECT
