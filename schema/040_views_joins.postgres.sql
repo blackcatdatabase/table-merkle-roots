@@ -1,6 +1,6 @@
 -- Auto-generated from joins-postgres.yaml (map@85230ed)
 -- engine: postgres
--- view:   merkle_roots_latest
+-- view:   merkle_latest
 
 -- Latest Merkle roots per table
 CREATE OR REPLACE VIEW vw_merkle_latest AS
