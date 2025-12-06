@@ -1,6 +1,7 @@
--- Auto-generated from schema-views-postgres.psd1 (map@62c9c93)
+-- Auto-generated from schema-views-postgres.yaml (map@sha1:EDC13878AE5F346E7EAD2CF0A484FEB7E68F6CDD)
 -- engine: postgres
 -- table:  merkle_roots
+
 -- Contract view for [merkle_roots]
 CREATE OR REPLACE VIEW vw_merkle_roots AS
 SELECT
@@ -14,19 +15,3 @@ SELECT
   status,
   created_at
 FROM merkle_roots;
-
--- Auto-generated from schema-views-postgres.psd1 (map@62c9c93)
--- engine: postgres
--- table:  merkle_roots_latest
--- Latest Merkle roots per table
-CREATE OR REPLACE VIEW vw_merkle_latest AS
-SELECT DISTINCT ON (subject_table)
-  subject_table,
-  period_start,
-  period_end,
-  leaf_count,
-  UPPER(encode(root_hash,''hex'')) AS root_hash_hex,
-  created_at
-FROM merkle_roots
-ORDER BY subject_table, created_at DESC;
-
