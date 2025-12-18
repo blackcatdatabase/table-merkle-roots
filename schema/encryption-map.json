@@ -1,0 +1,35 @@
+{
+  "tables": {
+    "merkle_roots": {
+      "columns": {
+        "created_at": {
+          "strategy": "passthrough"
+        },
+        "id": {
+          "strategy": "passthrough"
+        },
+        "leaf_count": {
+          "strategy": "passthrough"
+        },
+        "period_end": {
+          "strategy": "passthrough"
+        },
+        "period_start": {
+          "strategy": "passthrough"
+        },
+        "proof_uri": {
+          "strategy": "passthrough"
+        },
+        "root_hash": {
+          "strategy": "passthrough"
+        },
+        "status": {
+          "strategy": "passthrough"
+        },
+        "subject_table": {
+          "strategy": "passthrough"
+        }
+      }
+    }
+  }
+}
